@@ -19,7 +19,7 @@ const Cart = () => {
     <>
     <div className={`fixed right-0 top-0 p-5 w-full lg:w-[20vw] h-full bg-white z-50 ${activeCart? "translate-x-0":"translate-x-full"} transition-full duration-500`}>
    <div className='flex justify-between my-3'>
-    <span className='text-xl font-bold text-gray-800'>My Order</span>
+    <span className='text-xl font-bold text-gray-800'>My New Order</span>
     <IoMdClose 
     onClick={()=>setActiveCart(!activeCart)}
     className='border-2 border-gray-600 text-gray-600 font-bold p-1 text-xl rounded-md hover:text-red-300 hover:border-red-300 cursor-pointer'/>
